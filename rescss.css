@@ -109,31 +109,24 @@ border: 1px solid transparent;
 }
 
 .navbar button {
-   
+    margin-left: 40px;
       background-color: transparent;
       border-color: #5E5E5E;
-       color: black;
-       margin: 0 auto;
+       color: gray;
+       background-color: black;
+       
 
 }
 
 .container-fluid{
-     border-radius: 0px;
+     border-radius: 2px;
+     
      background-color: transparent;
-    background-image: -webkit-gradient(
-	linear,
-	left top,
-	left bottom,
-	color-stop(0, #272727),
-	color-stop(0.87, #5E5E5E),
-	color-stop(1, #0D0C0D)
-);
-background-image: -o-linear-gradient(bottom, #272727 0%, #5E5E5E 87%, #0D0C0D 100%);
-background-image: -moz-linear-gradient(bottom, #272727 0%, #5E5E5E 87%, #0D0C0D 100%);
-background-image: -webkit-linear-gradient(bottom, #272727 0%, #5E5E5E 87%, #0D0C0D 100%);
-background-image: -ms-linear-gradient(bottom, #272727 0%, #5E5E5E 87%, #0D0C0D 100%);
-background-image: linear-gradient(to bottom, #272727 0%, #5E5E5E 87%, #0D0C0D 100%);
     
+
+    
+
+
 }
 
 .navbar-header a p {
@@ -144,10 +137,38 @@ background-image: linear-gradient(to bottom, #272727 0%, #5E5E5E 87%, #0D0C0D 10
 }
 
 #inloggning {
-    background-color: red;
+   color: silver;
     width: 300px;
-    height: 475px;
-    
+    height: 300px;
+    background-color: 
     position: absolute;
+    margin-left: 20px;
     
 }
+
+#inloggning h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: Stencil std;
+    color: silver;
+    
+    
+}
+
+.boxbutton {
+     background-color: transparent;
+      border-color: #5E5E5E;
+       color: gray;
+       background-color: black;
+       margin-left: 60px; 
+   
+}
+
+.boxforms1 {
+    margin-left: 3px;
+    margin-top: 20px;
+   
+}
+
+
+

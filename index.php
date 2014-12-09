@@ -13,13 +13,13 @@ define("DB_SERVER", "localhost");
 define("DB_USER", "root");
 define("DB_PASSWORD", "");
 define("DB_NAME", "userlist");
-
+    
 $dbh = new PDO('mysql:dbname=' . DB_NAME . ';host=' . DB_SERVER . ';charset=utf8', DB_USER, DB_PASSWORD);
 session_start();
 
 $result = null;
 
-if ($_SESSION["user"]!=null) {
+if (isset($_SESSION["user"])) {
     
 } else {
     $_SESSION["user"] = NULL;
@@ -54,7 +54,8 @@ if (isset($_POST["action_login"])) {
 }
 
 if (isset($_POST["killsession"])){
-    include "phpiskill";
+   
+session_destroy(); 
 }
 
 
