@@ -58,13 +58,16 @@ if (isset($_POST["killsession"])){
 session_destroy(); 
 }
  
-
+  if (isset($_POST["usernamereg"]) and isset($_POST["passwordreg"])) {
+        //var_dump($_POST);
+        $reguser = $_POST["usernamereg"];
+        $regpass = $_POST["passwordreg"];
+    }
 
     if (isset($_POST['action_register'])) {
-        $name = $_POST["usernamereg"];
-        $betar = $_POST["passwordreg"];
-        
-        $sql = "INSERT INTO user(username,password) VALUES('','$reguser','$regpass')";
+       echo $reguser;
+       echo $regpass;
+        $sql = "INSERT INTO `user`(`id`, `username`, `password`) VALUES ('','$reguser','$regpass')";
         $stmt = $dbh->prepare($sql);
         $stmt->execute();
         
