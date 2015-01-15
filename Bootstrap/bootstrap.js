@@ -303,8 +303,8 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   Carousel.VERSION  = '3.2.0'
 
   Carousel.DEFAULTS = {
-    interval: 5000,
-    pause: 'hover',
+   
+   
     wrap: true
   }
 

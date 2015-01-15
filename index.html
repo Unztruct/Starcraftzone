@@ -7,7 +7,8 @@ and open the template in the editor.
 <html>
     <head>
         <link href="Bootstrap/bootstrap.min.css" rel="stylesheet">
-        <script src="Bootstrap/bootstrap.min.js"></script>
+        <link href='Bootstrap/bootstrap.css' rel="stylesheet">
+
         <meta charset="UTF-8">
         <link href="animate.css" rel="stylesheet">
         <link href="rescss.css" rel="stylesheet">
@@ -16,51 +17,76 @@ and open the template in the editor.
     <body>
         <div id="wrapper">
             <div  id="box1">
-
             </div>
 
             <div id="box2">
-
             </div>
 
             <div id="box3">
-
             </div>
 
             <div id="box4">
-
                 <img src="pictures/starlogo.png" alt="albin">
-
             </div>
 
-            <!--            <div id="register" class="navbar-fixed-bottom">
-                               Choose Username: <input type='text' class="boxforms2" name='username'><br>
-                               Choose Password: <input type='password' class="boxforms1" name='password'><br><br>
-                            
-                            
-                        </div>-->
-            <div id="mainbodyhusk">
-            <div id="mainbody_Zerg">
-                
-                
-                          
-            </div>
-        </div>
-
-           
-            <div id="mainbody_Protoss">
-                
-            </div>
-          
 
 
-            <div id="mainbodyhusk">
-                <div id="mainbody_Terran">
-                    
-                    
+
+            <div class="row">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+
+                            <div class="mainbody_Terran">
+
+                            </div>
+
+                            <div class="carousel-caption">
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="mainbody_Protoss">                               
+                            </div>
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+
+                        <div class="item">
+
+                            <div class="mainbody_Zerg">
+
+                            </div>
+
+                            <div class="carousel-caption">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
                 </div>
-                </div>
-        
+            </div>
+
+
+
+
+
+
+
+
 
 
 
@@ -90,7 +116,7 @@ and open the template in the editor.
                     <form id="navsearchbar" class="navbar-form navbar-left" role="search">
                         <!--Button Trigger modal2-->
                         <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal2">
-                        Register
+                            Register
                         </button>
                     </form>
 
@@ -119,25 +145,25 @@ and open the template in the editor.
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                       
+
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                             <h1 class="modal-title" id="myModalLabel">Starzone 1.0</h1>
                         </div><form method='post'>
-                        <div class="modal-body">
-                            
+                            <div class="modal-body">
+
                                 Username: <input type='text' class="boxforms2" name='username' ><br>
                                 Password: <input type='password' class="boxforms1" name='password' ><br><br>
-                            
-                            
-                            <a href="www.google.com">Forgot your password?</a>
-                        
-                            
-                        </div>
-                        <div class="modal-footer">
-                             <input type='Submit' class="btn btn-default boxbutton" value='Login' name='action_login'>
-                           
-                        </div></form>
+
+
+                                <a href="www.google.com">Forgot your password?</a>
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <input type='Submit' class="btn btn-default boxbutton" value='Login' name='action_login'>
+
+                            </div></form>
 
                     </div>
                 </div>
@@ -145,38 +171,38 @@ and open the template in the editor.
 
 
 
-<!-- Modal 2 -->
-<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h1 class="modal-title" id="myModalLabel">Create Account</h1>
-      </div>
-        <form method="post">
-      <div class="modal-body">
-         
-              
-              Choose Username: <input type='text' class="boxforms2" name="usernamereg"><br>
-              Choose Password: <input type="password" class='boxforms1' name="passwordreg"><br>
-           
-              
-          
-      </div>
-      <div class="modal-footer">
-          <input type='Submit' class="btn btn-default boxbutton" value='Register' name='action_register'>
-      </div></form>
-    </div>
-  </div>
-</div>
+            <!-- Modal 2 -->
+            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            <h1 class="modal-title" id="myModalLabel">Create Account</h1>
+                        </div>
+                        <form method="post">
+                            <div class="modal-body">
+
+
+                                Choose Username: <input type='text' class="boxforms2" name="usernamereg"><br>
+                                Choose Password: <input type="password" class='boxforms1' name="passwordreg"><br>
+
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <input type='Submit' class="btn btn-default boxbutton" value='Register' name='action_register'>
+                            </div></form>
+                    </div>
+                </div>
+            </div>
 
 
 
         </div>
+
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="Bootstrap/bootstrap.min.js"></script>
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     </body>
 </html>

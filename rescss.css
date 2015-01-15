@@ -188,34 +188,10 @@ border: 1px solid transparent;
       
 }
 
-#mainbody_Zerg {
-  
-   position: absolute;
-    background-color: purple;
-    height: 600px;
-    width: 1903px;
-    right: -1903px;
-   
-}
 
-#mainbodyhusk {
-    overflow: hidden;
-   position: relative;
-    
-    
-}
 
-#mainbody_Protoss {
-     position: absolute;
-    background-color: white;
-    height: 600px;
-    width: 1903px;
-    
-    
-}
-
-#mainbody_Terran {
-       position: absolute;
+.mainbody_Terran {
+      
     background-color: blue;
     height: 600px;
     width: 1903px;
@@ -226,6 +202,24 @@ border: 1px solid transparent;
 
 
 
+.mainbody_Protoss {
+      
+    background-color: white;
+    height: 600px;
+    width: 1903px;
+    left: -1903px;
+    
+    
+}
+
+.mainbody_Zerg {
+    
+    background-color: purple;
+    height: 600px;
+    width: 1903px;
+    left: -1903px;
+    
+}
 
 
 
