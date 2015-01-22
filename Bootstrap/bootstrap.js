@@ -305,7 +305,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   Carousel.DEFAULTS = {
    
    
-    wrap: true
+    wrap: false
   }
 
   Carousel.prototype.keydown = function (e) {
@@ -319,7 +319,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   }
 
   Carousel.prototype.cycle = function (e) {
-    e || (this.paused = false)
+    e || (this.paused = true)
 
     this.interval && clearInterval(this.interval)
 

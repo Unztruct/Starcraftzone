@@ -1,0 +1,11 @@
+
+
+$('.carousel').carousel({
+ 
+ wrap: false
+  
+  
+  
+  
+})
+

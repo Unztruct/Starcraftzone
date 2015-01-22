@@ -16,15 +16,18 @@ and open the template in the editor.
     </head>
     <body>
         <div id="wrapper">
-            <div  id="box1">
+           
+            
+                <div  id="box1" data-target="#carousel-example-generic" data-slide-to="0" class="active">
             </div>
 
-            <div id="box2">
+            <div id="box2" data-target="#carousel-example-generic" data-slide-to="1">
             </div>
 
-            <div id="box3">
+            <div id="box3" data-target="#carousel-example-generic" data-slide-to="2">
             </div>
 
+            
             <div id="box4">
                 <img src="pictures/starlogo.png" alt="albin">
             </div>
@@ -34,12 +37,7 @@ and open the template in the editor.
 
             <div class="row">
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    </ol>
+                   
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
@@ -49,15 +47,12 @@ and open the template in the editor.
 
                             </div>
 
-                            <div class="carousel-caption">
-
-                            </div>
+                          
                         </div>
                         <div class="item">
                             <div class="mainbody_Protoss">                               
                             </div>
-                            <div class="carousel-caption">
-                            </div>
+                           
                         </div>
 
                         <div class="item">
@@ -66,9 +61,7 @@ and open the template in the editor.
 
                             </div>
 
-                            <div class="carousel-caption">
-
-                            </div>
+                            
                         </div>
 
                     </div>
@@ -204,5 +197,6 @@ and open the template in the editor.
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="Bootstrap/bootstrap.min.js"></script>
+        <script src="carousel.js"></script>
     </body>
 </html>
