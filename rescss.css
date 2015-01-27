@@ -192,35 +192,113 @@ border: 1px solid transparent;
 
 .mainbody_Terran {
       
-    background-color: blue;
+    
     height: 600px;
-    width: 1933px;
-    left: -1933px;
+    width: 1903px;
+  
     
     
 }
 
 
+#Terran {
+    
+    margin: 0 auto;
+    width: 1500px;
+    height: 600px;
+   background-color: black;
+    
+   opacity: 0.4;
+   filter: alpha(opacity=40);
+   
+   border-radius: 25px;
+   border: 2px solid black;
+}
+
+.terran_intro {
+    float: left;
+    
+    height: 400px;
+    width: 300px;
+    
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.terran_intro h1 {
+   color: rgba(90, 8, 0, 1);
+    text-align: center;
+  font-family: 'Droid Serif', serif;
+  padding-bottom: 40px;
+  
+}
+
+.terran_intro p {
+    color: rgba(250, 200, 200, 1);
+     text-align: center;
+  font-family: 'Droid Serif', serif;
+  opacity: 1.0;
+}
+
+.tac1 {
+    
+    float: left;
+    width: 300px;
+    height: 500px;
+    background-color: red;
+    
+}
 
 .mainbody_Protoss {
       
-    background-color: white;
+   
     height: 600px;
     width: 1903px;
-    left: -1903px;
+
     
+    
+}
+
+#Protoss {
+    
+    margin: 0 auto;
+    width: 1500px;
+    height: 600px;
+   background-color: black;
+    
+   opacity: 0.4;
+   filter: alpha(opacity=40);
+   
+   border-radius: 25px;
+   border: 2px solid black;
+   
     
 }
 
 .mainbody_Zerg {
     
-    background-color: purple;
+    
     height: 600px;
     width: 1903px;
-    left: -1903px;
+    
     
 }
 
+#Zerg {
+    
+    margin: 0 auto;
+    width: 1500px;
+    height: 600px;
+   background-color: black;
+    
+   opacity: 0.4;
+   filter: alpha(opacity=40);
+   
+   border-radius: 25px;
+   border: 2px solid black;
+   
+    
+}
 
 
 
