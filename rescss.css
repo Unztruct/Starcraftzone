@@ -241,14 +241,39 @@ border: 1px solid transparent;
 }
 
 .tac1 {
-    
+    margin-left: 50px;
     float: left;
     width: 300px;
     height: 500px;
-    background-color: red;
+
     
 }
 
+
+.tac1list {
+    margin: 0 auto;
+    text-decoration: none;
+    list-style-type: none;
+    
+    
+}
+
+.tac1list li {
+    
+    margin-top: 30px;
+   
+   border: 2px solid red;
+    
+}
+
+.tac1list li h3 {
+    
+    text-align: center;
+ color: rgba(250, 200, 200, 1);
+ font-family: 'Droid Serif', serif;
+    
+ 
+}
 .mainbody_Protoss {
       
    
